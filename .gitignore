@@ -1,3 +1,10 @@
+# Visual Studio cache
+.vs/
+
+# CMake build directories
+build/
+out/
+
 # Prerequisites
 *.d
 
