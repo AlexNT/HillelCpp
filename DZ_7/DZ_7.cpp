@@ -53,7 +53,7 @@ static void printSummary(const CategoryStats& txt,
     std::uint64_t totalFiles,
     std::uint64_t totalBytes,
     std::uint64_t skippedEntries) {
-    std::cout << "\n=== Summary (HW6) ===\n";
+    std::cout << "\n=== Summary ===\n";
     printCategory("Text files (.txt)", txt);
     printCategory("Images (.jpg .jpeg .png .bmp .gif .tiff)", images);
     printCategory("Executables (.exe)", exe);
@@ -71,7 +71,7 @@ static void printSummary(const CategoryStats& txt,
 }
 
 static void printMenu() {
-    std::cout << "\n=== Filter menu (HW7) ===\n";
+    std::cout << "\n=== Filter menu ===\n";
     std::cout << "1) List text files (.txt)\n";
     std::cout << "2) List image files (.jpg .jpeg .png .bmp .gif .tiff)\n";
     std::cout << "3) List executables (.exe)\n";
@@ -107,7 +107,7 @@ static void printFileList(std::ranges::input_range auto&& view, std::size_t limi
 }
 
 int main(int argc, char* argv[]) {
-    std::cout << "=== Filesystem directory analyzer (HW6 + HW7) ===\n\n";
+    std::cout << "=== Filesystem directory analyzer ===\n\n";
 
     if (argc < 2) {
         std::cout << "Usage: " << (argc > 0 ? argv[0] : "analyzer") << " <directory_path>\n";
