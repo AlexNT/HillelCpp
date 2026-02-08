@@ -4,6 +4,7 @@
 # CMake build directories
 build/
 out/
+Debug/
 
 # Prerequisites
 *.d
